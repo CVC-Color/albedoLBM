@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "albedo-lbm"
+version = "1.0.0"
+description = "Albedo Estimation via Latent Bridge Matching (CIC 2026)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Carme Corbi" },
+    { name = "David Serrano-Lozano" },
+    { name = "Javier Vazquez-Corral" },
+    { name = "Maria Vanrell" },
+]
+dependencies = [
+    "torch>=2.4",
+    "torchvision>=0.20.0",
+    "diffusers==0.32.2",
+    "accelerate>=1.4.0",
+    "safetensors",
+    "huggingface_hub",
+    "Pillow",
+    "pydantic>=2.6.1",
+    "PyYAML",
+    "tqdm",
+]
+
+[project.urls]
+Homepage = "https://github.com/CVC-Color/albedoLBM"
+
+[project.optional-dependencies]
+demo = ["jupyter", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
