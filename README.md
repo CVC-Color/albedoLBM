@@ -1,6 +1,6 @@
 # Albedo Estimation via Latent Bridge Matching
 
-**[Carme Corbi](https://github.com/carmecorbi), [David Serrano-Lozano](https://github.com/davidserra9), [Javier Vazquez-Corral](https://github.com/jvazquezcorral), [Maria Vanrell](https://www.cvc.uab.es/people/mvanrell/)**
+**Carme Corbi, [David Serrano-Lozano](https://davidserra9.github.com), [Javier Vazquez-Corral](https://jvazquezcorral.github.io/), [Maria Vanrell](http://www.cat.uab.cat/~maria/)**
 
 Universitat Autònoma de Barcelona and Computer Vision Center
 
