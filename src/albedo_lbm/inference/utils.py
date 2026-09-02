@@ -78,6 +78,13 @@ def _resolve_files(model_dir: str, subfolder: Optional[str], cache_dir: Optional
                 raise FileNotFoundError(f"Missing {path} in model directory {local_dir}")
         return config_path, weights_path
 
+    if os.path.isdir(model_dir):
+        raise FileNotFoundError(
+            f"{model_dir} is a local directory but has no {subfolder}/ sub-directory. "
+            "A local model directory must hold one sub-directory per model, each with "
+            f"a {CONFIG_NAME} and a {WEIGHTS_NAME}."
+        )
+
     # Not a local directory: treat it as a Hugging Face Hub repository id.
     download = lambda filename: hf_hub_download(  # noqa: E731
         repo_id=model_dir,
