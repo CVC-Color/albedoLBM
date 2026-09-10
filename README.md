@@ -4,9 +4,11 @@
 
 Universitat Autònoma de Barcelona and Computer Vision Center
 
-*Color and Imaging Conference (CIC 2026)*
+*Paper accepted at the Color and Imaging Conference (CIC 2026)*
 
-[![Paper](https://img.shields.io/badge/Paper-CIC%202026-b31b1b)](https://github.com/CVC-Color/albedoLBM)
+This work was part of Carme's Master's Thesis for the [Master's in Computer Vision](https://mcv.uab.cat/) at the UAB. The arXiv paper contains extended experiments from this thesis.
+
+[![Paper](https://img.shields.io/badge/Paper-CIC%202026-b31b1b)]([https://github.com/CVC-Color/albedoLBM](https://arxiv.org/abs/2609.09884))
 [![Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-davidserra9%2Falbedo--lbm-yellow)](https://huggingface.co/davidserra9/albedo-lbm)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
 
