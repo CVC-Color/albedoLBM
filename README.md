@@ -9,7 +9,7 @@ Universitat Autònoma de Barcelona and Computer Vision Center
 This work was part of Carme's Master's Thesis for the [Master's in Computer Vision](https://mcv.uab.cat/) at the UAB. The arXiv paper contains extended experiments from this thesis.
 
 [![Paper](https://img.shields.io/badge/Paper-CIC%202026-b31b1b)](https://arxiv.org/abs/2609.09884)
-[![Project Website](https://img.shields.io/badge/Project-Webpage%202026-b31b1b)](https://color.cvc.uab.cat/albedolbm/)
+[![Project Website](https://img.shields.io/badge/Project-Webpage-b31b1b)](https://color.cvc.uab.cat/albedolbm/)
 [![Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-davidserra9%2Falbedo--lbm-yellow)](https://huggingface.co/davidserra9/albedo-lbm)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
 
